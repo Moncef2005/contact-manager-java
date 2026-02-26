@@ -1,0 +1,13 @@
+# Fichiers compilés Java
+*.class
+
+# Dossiers build
+bin/
+dist/
+
+# Fichiers IDE
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
