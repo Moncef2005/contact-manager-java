@@ -25,19 +25,21 @@ Application desktop de gestion de contacts développée en Java Swing avec conne
 ---
 
 ## Structure du projet
-PROJET-CONTACTS/
+```
+contact-manager-java/
 │
 ├── src/
-│ └── ContactManager.java
+│   └── ContactManager.java
 │
 ├── lib/
-│ └── mysql-connector-j-9.5.0.jar
+│   └── mysql-connector-j-9.5.0.jar
 │
 ├── database/
-│ └── gestion_contacts.sql
+│   └── gestion_contacts.sql
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -59,14 +61,18 @@ CREATE TABLE contacts (
 ```
 ## Configurer la connexion dans le code
 private static final String URL = "jdbc:mysql://localhost:3306/gestion_contacts";
+
 private static final String USER = "root";
+
 private static final String PASSWORD = "your_password";
+
 ## Lancer l'application
 1. Compiler le projet
 2. Ajouter mysql-connector-j-x.x.xx.jar au classpath
 3. Exécuter ContactManager.java
 Exemple en ligne de commande :
 javac -cp ".;lib/mysql-connector-j-9.5.0.jar" src/ContactManager.java
+
 java -cp ".;lib/mysql-connector-j-9.5.0.jar;src" ContactManager
 (Sur Linux ou macOS, remplacer ; par :)
 ## Objectif du projet
@@ -83,4 +89,5 @@ Ce projet a été réalisé pour :
 - Ajout d’une authentification utilisateur
 ## Auteur 
 Moncef Aaouine
+
 Étudiant en Informatique
