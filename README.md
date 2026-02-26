@@ -71,6 +71,7 @@ private static final String PASSWORD = "your_password";
 2. Ajouter mysql-connector-j-x.x.xx.jar au classpath
 3. Exécuter ContactManager.java
 Exemple en ligne de commande :
+
 javac -cp ".;lib/mysql-connector-j-9.5.0.jar" src/ContactManager.java
 
 java -cp ".;lib/mysql-connector-j-9.5.0.jar;src" ContactManager
