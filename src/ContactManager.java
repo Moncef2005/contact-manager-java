@@ -16,7 +16,7 @@ public class ContactManager extends JFrame {
     // Connexion à la base de données
     private static final String URL = "jdbc:mysql://localhost:3306/gestion_contacts";
     private static final String USER = "root";
-    private static final String PASSWORD = "";  
+    private static final String PASSWORD = "your_password";  
 
     public ContactManager() {
         setTitle("Gestion de Contacts");
