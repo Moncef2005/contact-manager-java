@@ -74,7 +74,9 @@ Exemple en ligne de commande :
 javac -cp ".;lib/mysql-connector-j-9.5.0.jar" src/ContactManager.java
 
 java -cp ".;lib/mysql-connector-j-9.5.0.jar;src" ContactManager
+
 (Sur Linux ou macOS, remplacer ; par :)
+
 ## Objectif du projet
 Ce projet a été réalisé pour :
 - Pratiquer Java Swing
